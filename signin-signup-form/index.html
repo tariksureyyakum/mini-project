@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
+</head>
+
+<body>
+
+
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>Hesap Oluştur</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>ya da e-mail adresinizi kullanarak hesap oluştur</span>
+                <input type="text" placeholder="İsim" />
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Şifre" />
+                <button>Kayıt Ol</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>Giriş Yap</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>ya da e-mail adresiyle giriş yap</span>
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Şifre" />
+                <a href="#">Şifrenizi mi unuttunuz?</a>
+                <button>Giriş Yap</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Tekrar Hoşgeldiniz</h1>
+                    <p>Lütfen kişisel bilgilerinizin doğruluğundan emin olun.</p>
+                    <button class="ghost" id="signIn">Giriş Yap</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Merhaba</h1>
+                    <p>Henüz hesap oluşturmadıysanız</p>
+                    <button class="ghost" id="signUp">Hesap Oluştur</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js" charset="utf-8"></script>
+</body>
+
+</html>

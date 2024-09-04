@@ -1,0 +1,75 @@
+#container {
+    width: 300px;
+    height: 380px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+    background: #5A5C68;
+}
+
+#dijital {
+    width: 270px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 15px;
+    background: #C1D798;
+}
+
+#box {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.islem {
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.tus {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 2px 6px 2px;
+    display: inline-block;
+    color: #fff;
+    background: #3D4049;
+}
+
+.tus:hover {
+    background: #6d6f77;
+}
+
+.tus2:hover {
+    background: #6d6f77;
+}
+
+.tus2 {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 2px 6px 2px;
+    display: inline-block;
+    color: #fff;
+    background: #BCC0C7;
+}
+
+#sonuc {
+    display: inline-block;
+    transform: translate(-0%, 0%);
+    font-size: 55px;
+    text-align: center;
+    width: 270px;
+}
+
+#clean {
+    background: #FF9100;
+}
+
+#clean:hover {
+    background: #ffc375;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Random Password</title>
+</head>
+
+<body>
+    <div class="pw-container">
+        <div class="pw-header">
+            <div class="pw">
+                <span id="pw">Şifre</span>
+                <button id="copy">Kopyala</button>
+            </div>
+        </div>
+        <div class="pw-body">
+            <h3>Şifre Özellikleri</h3>
+            <div class="form-control">
+                <lable for="length">Şifre Uzunluğu</lable>
+                <input id="len" type="number" min="8" max="30">
+            </div>
+            <div class="form-control">
+                <lable for="upper">Büyük Harf</lable>
+                <input id="upper" type="checkbox">
+            </div>
+            <div class="form-control">
+                <lable for="lower">Küçük Harf</lable>
+                <input id="lower" type="checkbox">
+            </div>
+            <div class="form-control">
+                <lable for="number">Sayı</lable>
+                <input id="number" type="checkbox">
+            </div>
+            <div class="form-control">
+                <lable for="symbol">Sembol</lable>
+                <input id="symbol" type="checkbox">
+            </div>
+            <button class="generate" id="generate">Şifre Oluştur</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
